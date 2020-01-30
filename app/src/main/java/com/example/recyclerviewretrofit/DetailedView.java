@@ -23,7 +23,6 @@ public class DetailedView extends AppCompatActivity {
         assert githubResponseModel != null;
         String nameStr = githubResponseModel.getName();
 
-        String i = githubResponseModel.getOwner().getAvatarUrl();
         detailedView.setText(nameStr);
 
     }
